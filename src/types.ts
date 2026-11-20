@@ -36,7 +36,7 @@ export type ProfileResult =
   | {
       valid: true;
       profile: Record<string, ProfileValue>;
-      meta: Record<string, { source: "person" | "agent"; updatedAt: string }>;
+      meta: Record<string, { source: "person" | "agent"; updatedAt: string; /** On `email`: always true, since an email is only shared once the person has verified it. */ verified?: boolean }>;
       missing?: string[];
       undeclaredFields?: string[];
     }
