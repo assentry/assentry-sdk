@@ -1,8 +1,19 @@
 {
   "name": "@assentry/sdk",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "license": "MIT",
-  "description": "Server-side SDK for partner sites verifying Assentry agent credentials",
+  "description": "Server-side SDK for websites that accept Assentry agent sign-ins",
+  "keywords": [
+    "assentry",
+    "ai-agents",
+    "agent-authentication",
+    "authentication",
+    "authorization",
+    "mcp",
+    "oauth",
+    "express",
+    "middleware"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
